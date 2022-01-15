@@ -97,10 +97,29 @@ header > .full-banner:hover > .banner-img {
     
 }
 
-.fas-w{
+.ml-8{
     margin-left: 8px;
 }
 /* header ends here */
+
+/* -------------
+    main css starts here
+  ----------------*/
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    width: 1080px;
+    padding-left: 60px;
+    padding-bottom: 40px;
+}
+.section-title{
+    font-size: 42px;
+    color: #0A0826;
+    text-align: center;
+}
 
 /*------------------------
      Popular section css starts here 
@@ -110,6 +129,7 @@ header > .full-banner:hover > .banner-img {
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 30px;
     grid-column-gap: 30px;
+    margin-top: 30px;
   }
   
   .product {
@@ -176,31 +196,11 @@ header > .full-banner:hover > .banner-img {
      Popular css ends here 
   ----------------------------*/
 
-/* -------------
-    main css starts here
-  ----------------*/
-
-/* model sections */
-
-main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.container{
-    width: 1080px;
-    padding-left: 60px;
-    padding-bottom: 40px;
-}
-.section-title{
-    font-size: 42px;
-    color: #0A0826;
-    text-align: center;
-}
+/*--------- model sections ------------*/
 .models{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin-top: 20px;
+    margin-top: 30px;
 }
 .model img{
     width: 300px;
@@ -219,9 +219,10 @@ main{
 .blogs{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin-top: 30px;
     row-gap: 30px;
     column-gap: 40px;
+    margin-top: 30px;
+    padding-bottom: 40px;
 }
 .blog{
     display: flex;
