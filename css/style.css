@@ -279,3 +279,50 @@ main{
     margin: 5px;
 }
 /* footer css ends here */
+
+
+/*-----------------------------
+    For Mobile Devices 
+  -----------------------------*/
+@media only screen and (max-width: 688px) {
+    .container {
+      width: 100%;
+    }
+    /* product section */
+    .products, .models {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  
+    .product {
+      flex-direction: column;
+    }
+    .product .product-banner img {
+        width: 100%;
+        margin: 5px;
+        padding-left: 0;
+        margin-left: 0;
+      }
+
+    /* top customers */
+    
+  }
+  
+  /*----------------------------
+    For Tablet Devices 
+    --------------------------*/
+  @media only screen and (min-width: 688px) and (max-width: 992px) {
+    .container {
+      width: 100%;
+    }
+  
+    .product .product-banner img {
+      width: 100%;
+      margin: 5px;
+      padding-left: 0;
+      margin-left: 0;
+    }
+  
+    .products {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  } 
