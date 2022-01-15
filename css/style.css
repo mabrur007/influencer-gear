@@ -87,7 +87,7 @@ header > .full-banner:hover > .banner-img {
 .banner-img{
     padding-left: 40px;
     margin-top: 50px;
-    transition:  3s ease  ;
+    transition:  2s ease  ;
 }
 
 .banner-img img{
@@ -100,3 +100,34 @@ header > .full-banner:hover > .banner-img {
     margin-left: 8px;
 }
 /* header end */
+
+/* -------------
+    main css starts here
+  ----------------*/
+/* model sections */
+
+main{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 1080px;
+}
+.section-title{
+    font-size: 42px;
+    color: #0A0826;
+    text-align: center;
+}
+.models{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.model img{
+    width: 300px;
+    
+}
+
+
+/* -------------
+    main css ends here
+  ----------------*/
